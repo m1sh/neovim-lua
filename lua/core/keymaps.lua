@@ -22,7 +22,7 @@ keymap.set('n', '<leader>q', '<cmd>quit<cr>', {remap = false})
 
 keymap.set('n', '<leader>m', '<cmd>bn<cr>', {remap = false})
 keymap.set('n', '<leader>n', '<cmd>bp<cr>', {remap = false})
-keymap.set('n', '<leader>c', '<cmd>bd<cr>', {remap = false})
+keymap.set('n', '<leader>c', '<cmd>bd!<cr>', {remap = false})
 
 keymap.set('', '<leader>c', '<cmd>bd<cr>', {remap = false})
 

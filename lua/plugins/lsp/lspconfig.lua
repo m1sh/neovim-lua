@@ -8,8 +8,6 @@ if not cmp_nvim_lsp_status then
   return
 end
 
-local keymap = vim.keymap
-
 local on_attach = function(client, bufno)
 end
 

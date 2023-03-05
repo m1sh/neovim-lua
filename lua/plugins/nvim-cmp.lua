@@ -10,6 +10,10 @@ end
 
 require('luasnip/loaders/from_vscode').lazy_load()
 
+luasnip.filetype_extend('html', {'html'})
+luasnip.filetype_extend('javascript', {'javascript'})
+luasnip.filetype_extend('css', {'css'})
+
 vim.opt.completeopt = 'menu,menuone,noselect'
 
 cmp.setup({

@@ -22,7 +22,8 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   -- My plugins here
   use 'ishan9299/nvim-solarized-lua'
-  use 'ap/vim-buftabline'
+  -- use 'ap/vim-buftabline'
+  use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
   use 'mattn/emmet-vim'
   use 'tpope/vim-surround'
   use 'tpope/vim-commentary'
@@ -41,7 +42,7 @@ return require('packer').startup(function(use)
   use 'vim-scripts/auto-pairs'
   use  {
     'neovim/nvim-lspconfig',
-    requires = { 'williamboman/mason.nvim', 'williamboman/mason-lspconfig.nvim' }
+    requires = { 'williamboman/mason.nvim', 'williamboman/mason-lspconfig.nvim', 'j-hui/fidget.nvim' }
   }
   use  {
     'hrsh7th/nvim-cmp',

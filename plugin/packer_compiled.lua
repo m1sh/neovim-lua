@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/mishal/.local/share/nvim/site/pack/packer/start/auto-pairs",
     url = "https://github.com/vim-scripts/auto-pairs"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/Users/mishal/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/mishal/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -108,6 +113,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/mishal/.local/share/nvim/site/pack/packer/start/emmet-vim",
     url = "https://github.com/mattn/emmet-vim"
+  },
+  ["fidget.nvim"] = {
+    loaded = true,
+    path = "/Users/mishal/.local/share/nvim/site/pack/packer/start/fidget.nvim",
+    url = "https://github.com/j-hui/fidget.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -160,10 +170,9 @@ _G.packer_plugins = {
     url = "https://github.com/ishan9299/nvim-solarized-lua"
   },
   ["nvim-web-devicons"] = {
-    loaded = false,
-    needs_bufread = false,
-    path = "/Users/mishal/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
-    url = "https://github.com/kyazdani42/nvim-web-devicons"
+    loaded = true,
+    path = "/Users/mishal/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -189,11 +198,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/mishal/.local/share/nvim/site/pack/packer/start/vim-blade",
     url = "https://github.com/jwalton512/vim-blade"
-  },
-  ["vim-buftabline"] = {
-    loaded = true,
-    path = "/Users/mishal/.local/share/nvim/site/pack/packer/start/vim-buftabline",
-    url = "https://github.com/ap/vim-buftabline"
   },
   ["vim-commentary"] = {
     loaded = true,

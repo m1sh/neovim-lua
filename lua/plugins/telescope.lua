@@ -1,0 +1,12 @@
+local telescope_status, telescope = pcall(require, 'telescope')
+if not telescope_status then
+  return
+end
+
+telescope.setup({
+  pickers = {
+    find_files = {
+      find_command = { "rg", "--files", "--hidden", "--glob", "!**/.git/*" },
+    },
+  },
+})

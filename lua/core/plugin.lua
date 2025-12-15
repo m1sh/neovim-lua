@@ -22,11 +22,9 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   -- My plugins here
   use 'ishan9299/nvim-solarized-lua'
-  -- use 'ap/vim-buftabline'
   use {'akinsho/bufferline.nvim', requires = 'nvim-tree/nvim-web-devicons'}
   use 'mattn/emmet-vim'
   use 'tpope/vim-surround'
-  -- use 'tpope/vim-commentary' built-in nvim 0.10+
   use 'tpope/vim-fugitive'
   use 'terryma/vim-multiple-cursors'
   use  {
@@ -43,8 +41,8 @@ return require('packer').startup(function(use)
   }
   use 'rafamadriz/friendly-snippets'
   use {
-    'lukas-reineke/indent-blankline.nvim',
-    config = function() require('ibl').setup() end
+    'lukas-reineke/indent-blankline.nvim'
+    --config = function() require('ibl').setup() end
   }
   use {
     'windwp/nvim-autopairs',

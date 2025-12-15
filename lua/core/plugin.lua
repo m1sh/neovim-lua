@@ -40,10 +40,7 @@ return require('packer').startup(function(use)
     requires = { {'nvim-lua/plenary.nvim'}, {'burntsushi/ripgrep'} }
   }
   use 'rafamadriz/friendly-snippets'
-  use {
-    'lukas-reineke/indent-blankline.nvim'
-    --config = function() require('ibl').setup() end
-  }
+  use 'lukas-reineke/indent-blankline.nvim'
   use {
     'windwp/nvim-autopairs',
     config = function() require('nvim-autopairs').setup({}) end
